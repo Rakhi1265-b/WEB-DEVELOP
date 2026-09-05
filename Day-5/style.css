@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.hero {
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('https://www.w3schools.com/w3images/architect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
